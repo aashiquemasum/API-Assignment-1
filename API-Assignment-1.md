@@ -7,12 +7,18 @@ An API is defined as a specification of possible interactions with a software co
 The API doesn’t have to explain what happens inside the engine when you put your foot on the accelerator. That’s why, if you learned to drive a car with an internal combustion engine, you can get behind the wheel of an electric car without having to learn a whole new set of skills. The what and how information come together in the API definition, which is abstract and separate from the car itself.
 
  Give 3 real-life examples of usage of API:
- (1). Weather Snippets
+
+
+
+(1). Weather Snippets
 
 Google utilizes APIs to display relevant data from user search queries.
 One common API usage example we come across on a daily basis is weather data. Rich weather snippets seem to be commonplace, found on all platforms, like Google Search, Apple’s Weather app, or even from your smart home device. For example, if you search “weather + [your city’s name]” on Google, you’ll see a dedicated box at the top of the search results (called a rich snippet) with the current weather conditions and forecast. As an example, here’s the search for “weather new york”.
 Google isn’t in the business of weather data (yet!), so they source this information from a third party. They do so by means of an API, which sends them the latest weather details in a way that’s easy for them to reformat. As we’ve previously covered, there are many weather APIs that power this kind of functionality.
 Clarification: Previously, Google used the Weather Underground API. That service is now a part of IBM’s The Weather Company, which the weather snippet currently links to in the bottom left corner.
+
+
+
 (2). Log-in Using XYZ
 
 Taken from Buffer’s social login
@@ -20,6 +26,10 @@ Another prominent example of API usage is the “log-in using Facebook/Twitter/G
 Instead of actually logging-in to users’ social media accounts (which would pose a serious security concern), applications with this functionality leverage these platforms’ APIs to authenticate the user with each login. For example, here’s the Facebook Login API.
 The way it works is pretty simple. Every time the application loads, it uses the API to check whether the user is already logged in by means of whatever social media platform. If not, when the user clicks the “Log-in Using XYZ” button, a pop-up opens where they are asked to confirm they actually want to log-in with that social media profile. When the user confirms, the API provides the application with identification information, so it knows who’s logging in.
 Also Read: 5 Powerful Alternatives to Google Maps API
+
+
+
+
 (3). Pay with PayPal
 
 Most online stores offer Paypal and other payment methods, utilizing API connections to these services.
